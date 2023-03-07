@@ -1,0 +1,26 @@
+:root {
+   --textcolor: #fff;
+   --bgcolor0: #021c1e;
+   --bgcolor1: #004445;
+   --bgcolor2: #97ceca;
+   --bgcolor3: #ebf3ee;
+ }
+
+ header {
+   display: flex;
+   justify-content:space-between;
+   align-items: center;
+   padding: 1%;
+   background-color: var(--bgcolor1);
+   color:var(--textcolor);
+ }
+
+ h1 {
+   background-color: var(--bgcolor1);
+ }
+ 
+
+ 
+ 
+
+ 
