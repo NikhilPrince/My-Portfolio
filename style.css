@@ -1,12 +1,21 @@
 :root {
-  background-color: rgb(236, 246, 246);
-   --textcolor: #fff;
-   --bgcolor0: #021c1e;
-   --bgcolor1: #004445;
-   --bgcolor2: #97ceca;
-   --bgcolor3: #ebf3ee;
+  background-color: rgb(248, 249, 249);
+
  }
 
+ body {
+    background-image: url("https://www.freewpheaders.com/wp-content/gallery/lights/colorful-blurred-lights-website-header.jpg");
+    height: 150px;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    max-width: 100%;
+    max-height: 100%;
+   
+ 
+ }
+ 
  header {
    display: flex;
    justify-content:space-between;
@@ -16,13 +25,14 @@
    color:var(--textcolor);
  }
 
- h1 {
-   color:#021c1e
- }
-
- h2{
+ h1{
   position: relative;
   left: 28%;
+  font-size: 30px;
+ }
+
+ p {
+  font-size: 45px;
  }
  
 img{
@@ -37,14 +47,3 @@ a {
   color:rgb(9, 9, 9);
 }
  
-.card {
-  width: 80%; 
-  height:240px;
-  max-height: 240px;
-  /* border-style:solid;
-  border-width: 1px; */
-  padding: 20px;
-  margin: 20px;
-  flex: 0 0 350px;
-  /* box-shadow: 5px 10px 10px #888888; */
-}
