@@ -1,0 +1,344 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.background{
+    background-image: url('../images/nature.jpeg');
+    background-size: cover;   
+    border-style: solid;  
+    border-color: rgb(8, 210, 129);
+    height: 300px;
+}
+
+.section {
+    background-color: #37572b;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;   
+    padding: 80px;
+}
+
+.headshot {
+    width: 20%;
+    height: auto;
+    padding-left: -1%;
+    border-radius: 20%;
+    border-style: groove;  
+}
+
+header {
+    display: flex;
+  background-size: cover;
+  background-color: #749353;
+  padding: 15px;
+  justify-content: space-between; 
+}
+  
+h1 {
+    font-size: 36px;
+    font-style: italic;
+}
+  
+a {
+    color: #ffffff;
+}
+  
+ul {
+    margin: 1mm;
+    font-size: 20px;
+    font-style: italic;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    list-style: none;
+}
+  
+li a {
+    padding: 10px;
+}
+  
+ a:hover {
+    color: rgb(68, 189, 112);
+}  
+
+/* "About Me" and "Contact Me" Sections Titles' Styling */
+.Info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    font-size: 20px;
+    color: #d1eeb5;
+    padding-right: 9px;
+    width: 10%;
+    text-align: end; 
+    border-right: #3a9d41 solid 3px;
+    padding: 50px;
+}
+
+/* "Work" Section Title's Styling */
+.Projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    font-size: 29px;
+    padding-right: 15px;
+    width: 10%;
+    text-align: end;
+    height: 1250px;
+    border-right: #3a9d41 solid 3px;
+    padding: 50px;
+}
+
+h3 {
+    color: #d1eeb5;;
+}
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    font-size: 20px;
+    color: #d1eeb5;
+    padding-right: 9px;
+    width: 10%;
+    text-align: end; 
+    border-right: #3a9d41 solid 3px;
+    padding: 50px;
+}
+
+
+
+
+
+
+
+/* "About Me" and "Contact Me" Section Contents' Styling */
+.text {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    width: 90%;
+}
+
+/* "Work" Section Content Stlyling */
+.flex-row2 {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    width: 90%;
+    
+}
+
+
+
+/* Section Font and Anchor Elements Styling */
+.section p, .section a {
+    line-height: 1.5;
+    color: #fffffe;
+    width: 80%;
+    margin: 0 auto;
+    font-size: 30px;
+    text-align: center;
+    padding: 0 15px 0 15px;
+}
+
+/* "Work" Section Font Styling */
+.flex-row2 p {
+    display: inline-block;
+    text-align: center;
+    opacity: 85%;
+    width: 45%;
+    
+    background-color: rgb(120, 225, 153);
+
+}
+
+/* Main Project Section Styling */
+.project1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto 0 auto;
+    height: 650px;
+    width: 100%;
+}
+
+/* Others Projects Section Styling */
+.project2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 auto 0 auto;
+    flex-direction: row;
+    width: 100%;
+}
+
+/* Main Project Image Styling */
+.surf {
+    background-image: url("images/surf.jpeg");
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    border-style: double;
+    border-color: #ffffff;
+    position: relative;
+    font-size: 1px;
+}
+
+
+/* Main Project Hover Styling */
+.surf:hover {
+    opacity: 75%;
+}
+
+/* LED Wall Image Styling */
+.LED {
+    background-image: url("images/Led.webp");
+    background-size: cover;
+    font-size: 15px;
+    width: 47.5%;
+    height: 300px;
+    margin-bottom: 2%;
+    border-style: double;
+    border-color: #ffffff;
+    position: relative;
+}
+
+/* LED Wall Hover Styling */
+.LED:hover {
+    opacity: 50%;
+    
+}
+
+/* Calculator Image Styling */
+.calculator {
+    background-image: url("images/cal.jpeg");
+    width: 47.5%;
+    height: 300px;
+    margin-bottom: 2%;
+    margin-left: 0.5%;
+    border-style: double;
+    border-color: #ffffff;
+    position: relative; 
+}
+
+/* Calculator Hover Styling */
+.calculator:hover {
+    opacity: 75%;
+}
+
+/* Pastel Puzzle Image Styling */
+.pastel-puzzles {
+    background-image: url("images/puzzle.jpeg");
+    background-size: cover;
+    width: 47.5%;
+    height: 300px;
+    margin-bottom: 2%;
+    margin-right: 0.5%;
+    border-style: double;
+    border-color: #ffffff;
+    position: relative; 
+}
+
+/* Pastel Puzzle Hover Styling */
+.pastel-puzzles:hover {
+    opacity: 75%;
+}
+
+/* Run Buddy Image Styling */
+.run-buddy {
+    background-image: url("images/run.avif");
+    background-size: cover;
+    width: 47.5%;
+    height: 300px;
+    margin-bottom: 2%;
+    margin-left: 0.5%;
+    border-style: double;
+    border-color: #ffffff;
+    position: relative; 
+}
+
+/* Run Buddy Hover Styling */
+.run-buddy:hover {
+    opacity: 75%;
+}
+/* End of Main Sections Content Styling */
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERY FOR SMALLER DESKTOP SCREENS AND SMALLER */
+@media screen and (max-width: 980px) {
+    header {
+        padding-bottom: 0;
+        justify-content: center;
+        position: relative;
+    }
+    
+    header h1 {
+        width: 100%;
+        text-align: center;
+    }
+    
+    header nav ul {
+        margin-top: 20px;
+        width: 100%;
+        justify-content: center;
+    }
+    
+    header nav ul li a {
+        font-size: 20px;
+    }
+    
+    footer h2, footer div {
+        text-align: center;
+        width: 100%;
+    }
+
+    .section-title {
+        width: 20%;
+    }
+}
+  
+  /* MEDIA QUERY FOR TABLETS AND SMALLER */
+@media screen and (max-width: 768px) {
+    section {
+      padding: 30px 15px;
+    }
+}
+  
+/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+@media screen and (max-width: 575px) {
+    .section-title {
+      width: 95%;
+    }
+  
+    .section p {
+      width: 100%;
+    }
+}

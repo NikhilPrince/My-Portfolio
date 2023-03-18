@@ -1,45 +1,137 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css" />
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css">
     <title>My Portfolio</title>
-</head>
+  </head>
 
-<body>
-    <!--Header-->
-<header>
-    <h1>
-        <a>Nikhil Prince</a>
-    </h1>
-    
-    <!--Nav bar (Projects, About Me and Contact info)-->
-        <nav>
-            <ul>
-                <li>
-                    <a href="#Projects">Projects</a>
-                </li>
+  <body>
+    <!--Navigation -->
+    <header>
+      <h1>
+        <a href="/">Nikhil Prince</a>
+      </h1>
 
-                <li>
-                     <a href="#About-Me">About Me</a>
-                </li>
-
-                 <li>
-                    <a href="#Contact">Contact</a>
-                </li>
-            </ul>
-        </nav>
-</header>
-
-<!--Introduction-->
-
-</body>
-</div>
       
-</div>
-<body>
+      <nav>
+        <ul>
+
+          <li>
+            <a href="#Projects">Projects</a>
+          </li>
+
+          <li>
+            <a href="#About-Me">About Me</a>
+          </li>
+          
+          <li>
+            <a href="#contact-me">Contact Me</a>
+          </li>
+
+        </ul>
+      </nav>
+      
+    </header>
+
+    <!-- Background Header -->
+    <section class="background"></section>
+   
+
+    <!-- "About Me -->
+    <section id="about-me" class="section">
+        <div class="Info">
+            <h2>
+              About Me
+            </h2>
+        </div>
+
+        <!-- Section Content -->
+        <div class="text">
+            <img src="images/headshot.jpeg" class="headshot"/>
+            <p style="border-style: double;">
+                Hello! My name Nikhil Prince and I just started my journey as a web developer. Below are some projects that I worked on or working on. Thanks for checking out my page.
+            </p>
+        </div>
+    </section>
+    <!-- End of "About Me" Section -->
+
+    <!-- Start of "Work" Section -->
+    <section id="work" class="section">
+        <!-- Section Title -->
+        <div class="Projects">
+          <h3>
+            Projects
+          </h3>
+        </div>
+
+        <!-- Section Content -->
+        <div class="flex-row2">
+            <!-- Main Project Content -->
+            <div class="project1">
+                <div class="surf">
+                    <p><a href="https://github.com/NikhilPrince">Surf Report</a>
+                      <br/>MERN full-stack</p>
+                </div>
+            </div>
+            
+            <!-- Other Projects -->
+            <div class="project2">
+                <!-- LED Wall Project -->
+                <div class="LED">
+                  <p><a href="https://github.com/NikhilPrince">LED Wall</a>
+                    <br/><font size="-0.5">Node/IoT</font></p>
+                </div>
+
+                <!-- Calculator Projector -->
+                <div class="calculator">
+                    <p><a href="https://github.com/NikhilPrince">Calculator</a>
+                    <br/><font size="5px">MERN Stack</font></p>
+                </div>
+
+                <!-- Pastel Puzzles -->
+                <div class="pastel-puzzles">
+                    <p><a href = "https://github.com/NikhilPrince">Pastel Puzzles</a>
+                      <br/><font size="5px">HTML/CSS</font></p></p>   
+                </div>
+
+                <!-- Run Buddy -->
+                <div class="run-buddy">
+                  <p><a href = "https://github.com/NikhilPrince">Run Buddies</a>
+                    <br/><font size="5px">HTML/CSS</font></p></p>  
+                </div>
+            </div>
+        </div>
+      </section>
+    <!-- End of "Work" Section -->
+
+    <!-- Contact-->
+    <section id="contact-me" class="section">
+        <div class="contact">
+          <h2>
+            Contact Me
+          </h2>
+        </div>
+
+        <div class="text">
+            <div class="phone">
+                <a>
+                  (480)-512-9917
+                </a>
+            </div>
+
+            <div class="email">
+                <a>
+                  nikhilprince1995@gmail.com
+                </a>
+            </div>
+
+            <div class="github">
+                <a href="https://github.com/NikhilPrince">Github</a>
+            </div>
+      </div>
+      </section>
     
-</body>
+  </body>
 </html>
