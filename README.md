@@ -7,7 +7,7 @@ Welcome to my portfolio. As I continue my journey, I will add my future projects
 This portfolio has the following;
 
 - About me
-- Projects that will worked on in the future
+- Projects that will be worked on in the future
 - A way to contact me
 
 
@@ -20,4 +20,4 @@ Click on the project title to learn more about the project, or click "About me" 
 
 ## View
 
-View the live site <a href="">here.</a> 
+View the live site <a href="https://nikhilprince.github.io/My-Portfolio/">here.</a> 
