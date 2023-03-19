@@ -11,8 +11,8 @@ This portfolio has the following;
 - A way to contact me
 
 
-![Portfolio Desktop View](Images/ss2.png) 
-![Portfolio Desktop View](Images/ss1.png)
+![Portfolio Desktop View](assets/Images/ss2.png) 
+![Portfolio Desktop View](assets/Images/ss1.png)
 
 ## Usage
 
