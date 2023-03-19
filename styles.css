@@ -7,7 +7,7 @@
 }
 
 .background{
-    background-image: url('images/nature.jpeg');
+    background-image: url('Images/nature.jpeg');
     background-size: cover;   
     border-style: solid;  
     border-color: rgb(8, 210, 129);
@@ -156,7 +156,7 @@ h3 {
 
 /* Main/Side Projects Styling */
 .surf {
-    background-image: url(images/surf.jpeg);
+    background-image: url('images/surf.jpeg');
     background-size: cover;
     width: 100%;
     height: 600px;
